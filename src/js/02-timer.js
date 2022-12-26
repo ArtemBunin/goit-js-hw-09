@@ -66,7 +66,7 @@ function updateTimeFace({ days, hours, minutes, seconds }) {
   componentTimer.minutes.textContent = minutes;
   componentTimer.seconds.textContent = seconds;
 }
-function updateWords({ days, hours, minutes}){
+function updateWords({ days, hours, minutes,seconds}){
 if( days<2){
   componentTimer.days.nextElementSibling.textContent= 'DAY';
 }
@@ -75,6 +75,9 @@ if( days<2){
  }
  if(minutes<2){
   componentTimer.minutes.nextElementSibling.textContent='MINUTE';
+ }
+ if(seconds<2){
+  componentTimer.minutes.nextElementSibling.textContent='SECOND';
  }
   
 }
