@@ -77,7 +77,7 @@ if( days<2){
   componentTimer.minutes.nextElementSibling.textContent='MINUTE';
  }
  if(seconds<2){
-  componentTimer.minutes.nextElementSibling.textContent='SECOND';
+  componentTimer.seconds.nextElementSibling.textContent='SECOND';
  }
   
 }
