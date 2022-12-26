@@ -12,13 +12,14 @@
     "url": "git+https://github.com/ArtemBunin/goit-js-hw-09.git"
   },
   "keywords": [],
-
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ArtemBunin/goit-js-hw-09/issues"
   },
   "dependencies": {
-    "modern-normalize": "^1.1.0"
+    "flatpickr": "^4.6.13",
+    "modern-normalize": "^1.1.0",
+    "notiflix": "^3.2.5"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",
